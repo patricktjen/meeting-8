@@ -7,7 +7,7 @@ def main():
     print("███████║█████╗░░██║░░░░░██║░░░░░██║░░██║")
     print("██╔══██║██╔══╝░░██║░░░░░██║░░░░░██║░░██║")
     print("██║░░██║███████╗███████╗███████╗╚█████╔╝")
-    print("╚═╝░░╚═╝╚══════╝╚══════╝╚══════╝░╚════╝░")
+    print("╚═╝░░╚═╝╚══════╝╚══════╝╚══════╝═══╝░")
     kunci_jawaban = "Finish"
     encryption = Encryption(kunci_jawaban,5)
     soal = encryption.caesar_cipher()
